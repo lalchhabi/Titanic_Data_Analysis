@@ -1,13 +1,2 @@
-Hello Guys I have a problem in github when I want to push some project files in my github account.
-When I type code 'git push origin master' I got a error like 
+Hello Guys 
 
-To https://github.com/lalchhabi/Titanic_Data_Analysis.git
- ! [rejected]        master -> master (fetch first)
-error: failed to push some refs to 'https://github.com/lalchhabi/Titanic_Data_Analysis.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-
-Hey this is the file for google chat messaging app
