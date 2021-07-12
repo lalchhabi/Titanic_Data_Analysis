@@ -1,0 +1,19 @@
+
+remotrorigngit init ### Initialize the git
+git status ### To check all the status of files in git
+git add 'filename' ### To add file in git or to add file from local directory to staging area
+git add . #### To add all the files
+git add 'filename1','filename2' #### To add two files simultaneously
+git commit -m ' message' ### To add file from staging area to repository
+git config --global user.email 'email address', ### It is required for the first time to configure your email
+git config --global user.name 'Name' #### It is required for the first time to configure your name
+git config --list ### To see all the configure gmail and name
+git log ##### To view all the commit history
+git log --oneline ##### To view commit in one line
+git checkout 'hashnumber' ##### To go back to the previous file
+git checkout master #### To come in present stage
+ctrl + l ##### To clear the screen
+git remote add origin 'url of repository' ##### To add file from staging area to github repository
+git push origin master ###### To push our code to github
+token = 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 
+git clone 'url of repository' #### To download file from github to local directory push 
