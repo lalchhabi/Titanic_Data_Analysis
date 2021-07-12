@@ -1,5 +1,5 @@
 
-remotrorigngit init ### Initialize the git
+git init ### Initialize the git
 git status ### To check all the status of files in git
 git add 'filename' ### To add file in git or to add file from local directory to staging area
 git add . #### To add all the files
@@ -17,3 +17,6 @@ git remote add origin 'url of repository' ##### To add file from staging area to
 git push origin master ###### To push our code to github
 token = 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 
 git clone 'url of repository' #### To download file from github to local directory push 
+git diff --staged #### To view which and how files is added or staged but not commit
+git diff ###### diff of what is changed but not staged
+git reset 'filename' #### To unstage a file while retaining the changes in working directory
