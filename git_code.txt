@@ -5,6 +5,7 @@ git add 'filename' ### To add file in git or to add file from local directory to
 git add . #### To add all the files
 git add 'filename1','filename2' #### To add two files simultaneously
 git commit -m ' message' ### To add file from staging area to repository
+git commit -am 'message' ####### To add and commit directly
 git config --global user.email 'email address', ### It is required for the first time to configure your email
 git config --global user.name 'Name' #### It is required for the first time to configure your name
 git config --list ### To see all the configure gmail and name
@@ -18,5 +19,31 @@ git push origin master ###### To push our code to github
 token = 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 
 git clone 'url of repository' #### To download file from github to local directory push 
 git diff --staged #### To view which and how files is added or staged but not commit
-git diff ###### diff of what is changed but not staged
+git diff ###### Show changes between commits, commit and working tree, etc
 git reset 'filename' #### To unstage a file while retaining the changes in working directory
+git branch 'branch name'  ###### To create a new branch
+git branch ####### To see all the branch
+git checkout 'branch name' ####### To switch the branch
+git merge 'branch name to be merged' #### To merge the branches
+git branch -d 'branch name' ###### To delete the branch but it did not delete branch that are not merged
+git branch -D 'branch name' ###### To delete all kind of branch that are merged or not
+git reset hard 'previous branch hash number' #####To move back to the previous branch or work
+git pull origin master ##### To see the work of other branch or other collaborator
+git merge --no-ff 'branch name you want to merge' ##### To assign different hash number when merge with master branch i.e no fast forward
+git branch --merged ##### To see all the branches that are merged
+git branch --no-merged ###### To see all the branches that are not merged
+git push origin 'branch name to upload in repository' ##### To push branch in remote repository
+git remote show origin ##### To see all the remote branches name in gitbash
+git tag -a 'name of version' -m 'message' ####To Add tag
+we have to create .gitignore file to ignore or to not push the unnecessary files in github
+git push origin 'version name' ### to push tag into repository
+git tag -d 'version name' ### To delete tag
+git log --author 'collaborator name' ### To see all the activity of collaborator
+git log --stat --oneline #####To See all the activity detaily
+git log --stat --oneline --author 'collaborator name'   ### To see all the activity of collaborator
+git log --oneline --decorate --graph --all ### To see the activities in graph
+git stash save #### To save the file temporary
+git stash list #### To see all the list of stash
+git stash pop ##### To regain the file from stash
+ git push origin --delete 'branch name' ### To delete remote branch
+
